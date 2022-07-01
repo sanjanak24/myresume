@@ -1,0 +1,199 @@
+body{
+    background-color: #888;
+    padding: 3rem;
+}
+html{
+    color:#333;
+    font-family:"Josefin Sans" ;
+    line-height: 1.5;
+}
+
+h1{
+    font-style: italic;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+h2{
+    font-size: 1.25rem;
+    font-style: oblique;
+    color:beige;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding:0.75rem;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 1.15rem;
+    color:salmon;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+p{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    margin-top:-1rem;
+}
+section + section{
+    margin-top: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+.profile img{
+    border-radius: 50%;
+    width:15rem;
+    height: 15rem;
+}
+.profile{
+    text-align: center;
+    background-color:cornsilk;
+}
+.profile h3{
+    color: rgb(86, 107, 128);
+}
+.contact li{
+    padding:0.75rem;
+    font-size: 1.15rem;
+    border-top: 1px solid;
+    color:dimgray 
+}
+.contact ul{
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+
+
+.objectives h2{
+    margin-top: -1.50rem;
+    background-color: rgb(123, 119, 179);
+    
+}
+li+li{
+    margin-top: 0.50rem;
+}
+.event{
+    display: grid;
+    grid-template-columns: 7ch 1fr;
+    padding-top: 1rem;
+}
+.content h3{
+    margin-top: -0.50rem;
+}
+.content h4{
+    margin-top: -0.75rem;
+    color:cadetblue;
+}
+.content{
+    border-left: 1px solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+.content p{
+    margin-top: 1rem;
+}
+.hobby{
+    letter-spacing: 1.5px;
+    color:darkslategrey;
+    font-family:"Josefin Sans";
+}
+
+.resume{
+    display:grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap:2rem;
+    background-color:ghostwhite ;
+    padding: 3rem;
+    max-width: 1000px;
+    margin: auto;
+}
+ul li{
+    margin-top:-0.25rem;
+}
+ul p{
+    margin-top: -0.75rem;
+}
+.contact h2{
+    background-color:rgb(123, 119, 179);
+}
+.education h2{
+    background-color:rgb(123, 119, 179);
+}
+.hobbies h2{
+    background-color:rgb(123, 119, 179);
+}
+.skills h2{
+    background-color:rgb(123, 119, 179);
+
+}
+.skills ul{
+    background-color:rgb(233, 215, 215);  
+}
+.skills li{
+    margin-top: 0.75rem;
+}
+.hobbies ul{
+    background-color:rgb(233, 215, 215);   
+}
+.education{
+    background-color:rgb(233, 215, 215);
+}
+.objectives{
+    background-color:rgb(233, 215, 215); 
+}
+.contact{
+    background-color:rgb(233, 215, 215);
+}
+.social{
+    background-color:rgb(233, 215, 215);
+}
+.tooltip{
+    position:relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.skills  .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 2fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.skills .box .percent{
+    position:relative;
+    width: 90%;
+    height: 70%;
+    background: rgb(233, 233, 236);
+
+}
+.skills .box .percent div
+{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    background:#03a9f4
+}
+.hobby li{
+    margin-top: 2px;
+}
+
+
+
+
+    
